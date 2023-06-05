@@ -1,129 +1,121 @@
-
 * {
-  font-family: 'League Spartan', sans-serif;
-  background-color: #121214;   /* cor de fundo da página*/
-  ;
-  
+  font-family: "League Spartan", sans-serif;
+  background-color: #121214; /* cor de fundo da página*/
 }
 
- body{
-  height: 100%;   /*medidas de referência da página para uso no container*/
-  width:100%;
+body {
+  height: 100%; /*medidas de referência da página para uso no container*/
+  width: 100%;
   margin: 0;
- }
-
-  
-container {
-  display: flex;   /*propriedade que permite o uso do "box"*/
-
 }
 
+.container {
+  display: flex; /*propriedade que permite o uso do "box"*/
+}
 
 .imagepage {
-  position: absolute;   /*desaclopa do eixo e puxa as novas coordenadas*/
-  right: 0px;    /*define o lado direto como posição da imagem*/
-  height: 100%;   /*altura da foto, ocupa toda a página */
-  width: 50%;    /*largura da foto, ocupa metade página */
-} 
-
-
-.imagelogo{
-position: absolute; /*desaclopa do eixo e puxa as novas coordenadas*/
-width: 389px;   /*largura da foto */
-height: 94px;  /*altura da foto */
-left: 30px;   /*posição à esquerda */
-top: 50px;   /*distância do topo */
+  position: absolute; /*desaclopa do eixo e puxa as novas coordenadas*/
+  right: 0px; /*define o lado direto como posição da imagem*/
+  height: 100%; /*altura da foto, ocupa toda a página */
+  width: 50%; /*largura da foto, ocupa metade página */
 }
 
-
- h1{
-  color: #08C05E;
-  font-family: 'Work Sans', sans-serif;  /*font web*/
-  font-size: 24px; /*tamanho da font */
-  padding-top: 150px; /*distância do topo */
-
-  
-   
+.imagelogo {
+  position: absolute; /*desaclopa do eixo e puxa as novas coordenadas*/
+  width: 389px; /*largura da foto */
+  height: 94px; /*altura da foto */
+  left: 30px; /*posição à esquerda */
+  top: 50px; /*distância do topo */
 }
 
 h2 {
- 
-  color: #E1E1E6;
-  font-size: 16px;   /*tamanho da font */
-  line-height: 16px;   /*altura da linha */
-  font-weight: 500;   /*peso da font (espessura) */
+  color: #e1e1e6;
+  font-size: 16px; /*tamanho da font */
+  line-height: 16px; /*altura da linha */
+  font-weight: 500; /*peso da font (espessura) */
   letter-spacing: 1px; /*espaço entre as letras*/
-
-  
 }
 
-p {
-
-  color:#E1E1E6;
-  font-size: 14px;   /*tamanho da font */
-  font-weight: 200px;  /*peso da font (espessura) */
-  letter-spacing: 1px;   /*espaço entre as letras*/
-  padding-top: 4px;   /*distância do topo */
-  line-height:0;   /*altura da linha */
-  
- 
-
+section h1 {
+  color: #08c05e;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px; /*tamanho da font */
+  padding-top: 150px; /*distância do topo */
 }
 
-
-h3{
-  padding-top: 40px; /*distância do topo */
-  color: #A8A8A8;
-
+section span {
+  color: #ffffff;
+  font-weight: bold;
 }
 
-
-input {
-width: 798px;   /* largura da caixa do input */
-height: 48px;   /* altura da caixa do input */
-position: absolute;   /*desaclopa do eixo e puxa as novas coordenadas*/
-left: 30px;   /*distância da esquerda */ 
-top: 400px;   /*distância do topo */
-background-color:#FFFFFF; /*cor de fundo */
-border-left: 4px solid #04D361;
-border-top: none;   /* Remove as bordas do topo */
-border-right: none;   /* Remove as bordas do lado */
-border-bottom: none;   /* Remove as bordas do lado */
-
-
+section p {
+  color: #ffffff;
+  font-size: 14px; /*tamanho da font */
+  font-weight: 200; /*peso da font (espessura) */
+  letter-spacing: 1px; /*espaço entre as letras*/
+  font-family: "League Spartan", sans-serif;
 }
 
-
+h3 {
+  margin-top: 40px; /*distância do topo */
+  color: #a8a8a8;
+}
 
 h4 {
-  padding-top: 100px;   /*distância do topo */
-  color: #8257E5;
+  margin-top: 50px; /*distância do topo */
+  color: #8257e5;
   font-size: 20px; /*tamanho da fonte*/
   font-weight: 400; /*configura espessura da fonte*/
- 
 }
 
-
- main {
-  padding: 2rem;   /* preenchimento, distância lateral*/ 
-  width: 50%;   /* largura da caixa do input */
-  height: 50%;   /* altura da caixa do input */
- 
+main {
+  padding: 2rem; /* preenchimento, distância lateral*/
+  width: 50%; /* largura da caixa do input */
+  height: 50%; /* altura da caixa do input */
 }
 
-span{
+.formatseta {
+  display: flex; /*propriedade que permite o uso do "box"*/
+  flex-direction: row;
+}
 
-  height: 5rem;   /* distância entre elementos, altura*/ 
-  
-} 
+input {
+  width: 798px; /* largura da caixa do input */
+  height: 48px; /* altura da caixa do input */
+
+  background-color: #ffffff; /*cor de fundo */
+  border-left: 4px solid #04d361;
+  border-top: none; /* Remove as bordas do topo */
+  border-right: none; /* Remove as bordas do lado */
+  border-bottom: none; /* Remove as bordas do lado */
+}
 
 button {
- background-color:#8257E5;
- position: absolute;   /*desaclopa do eixo e puxa as novas coordenadas*/
- width: 50px;   /* largura do botão*/
- height: 50px;   /* altura do botão*/
- left: 789px;   /* distância esquerda*/ 
- top: 400px;   /* distância topo*/
- border: none;  /* Remove as bordas da caixa*/
+  background-color: #8257e5;
 
+  width: 50px; /* largura do botão*/
+  height: 50px; /* altura do botão*/
+  border: none; /* Remove as bordas da caixa*/
+}
+
+button img {
+  background: none;
+}
+
+/* 
+  TODO Alterar cor do svg para branco.  
+*/
+.imageseta {
+  fill: red;
+  stroke: none;
+}
+
+buttonnnn {
+  background-color: #8257e5;
+  position: absolute; /*desaclopa do eixo e puxa as novas coordenadas*/
+  width: 50px; /* largura do botão*/
+  height: 50px; /* altura do botão*/
+  left: 789px; /* distância esquerda*/
+  top: 400px; /* distância topo*/
+  border: none; /* Remove as bordas da caixa*/
 }
